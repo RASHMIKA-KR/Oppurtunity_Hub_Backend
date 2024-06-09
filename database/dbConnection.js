@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 export const dbConnection = () => {
   mongoose
     .connect(process.env.MONGO_URI, {
-      dbName: "jobSeek",
+      dbName: "Oppurtunity_Hub",
     })
     .then(() => {
       console.log("Connected to database.");
